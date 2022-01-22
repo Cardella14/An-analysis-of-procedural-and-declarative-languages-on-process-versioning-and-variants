@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dmn:definitions namespace="http://www.signavio.com/dmn/1.2/diagram/4db072ea722b42759bfa5c7c27f99741.xml" exporterVersion="15.11.1" name="Check enrolment documents (non-EU students) DMN 2022/23" id="id-6d5cab19adc449a38af9fb5936e753cf" sigExt:revisionNumber="3" sigExt:revisionId="0efc4cf60d2c42f7be9b059233138909" xmlns="http://www.signavio.com/dmn/1.2/diagram/4db072ea722b42759bfa5c7c27f99741.xml" xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns:sigExt="http://www.signavio.com/schema/dmn/1.2/" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/">
+    <dmn:extensionElements/>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="idOrPassport" id="id-af37e3cc28f045c3735cbd148d4f4a63" label="ID or passport">
+        <dmn:typeRef>boolean</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="studyVisa" id="id-dc2b83199e94f8108857c736cc890ca1" label="Study VISA">
+        <dmn:typeRef>boolean</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="checkEnrolmentDocuments" id="id-7635cb1b34a2f276dd5502afd4407ae6" label="Check enrolment documents">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="newElement" id="id-50e7f7741e7abfc00f72c949c812155c" label="">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="receiptOfResidencePermitRequest" id="id-9c48a9d4c1a498ba4f896188edd557b1" label="Receipt of residence permit request">
+        <dmn:typeRef>boolean</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:inputData name="idOrPassport" id="id-45fb4a42025e49b3e91397fa4d288521" label="ID or passport" sigExt:diagramId="4db072ea722b42759bfa5c7c27f99741" sigExt:shapeId="sid-2E69D8BF-4925-4CA6-82D8-96C7664803F9">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="idOrPassport" name="idOrPassport" id="id-45fb4a42025e49b3e91397fa4d288521_variable"/>
+    </dmn:inputData>
+    <dmn:inputData name="receiptOfResidencePermitRequest" id="id-97fbd8f41feac4e5aa789958b3feb80e" label="Receipt of residence permit request" sigExt:diagramId="4db072ea722b42759bfa5c7c27f99741" sigExt:shapeId="sid-3ED14FFE-7431-40A2-B746-70E409A8BAA6">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="receiptOfResidencePermitRequest" name="receiptOfResidencePermitRequest" id="id-97fbd8f41feac4e5aa789958b3feb80e_variable"/>
+    </dmn:inputData>
+    <dmn:inputData name="studyVisa" id="id-0de2344efd35afb5b7d41dd1541c61ae" label="Study VISA" sigExt:diagramId="4db072ea722b42759bfa5c7c27f99741" sigExt:shapeId="sid-6502D4EE-36F8-44FD-8AF2-04BE2B559D3C">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="studyVisa" name="studyVisa" id="id-0de2344efd35afb5b7d41dd1541c61ae_variable"/>
+    </dmn:inputData>
+    <dmn:decision name="checkEnrolmentDocuments" id="id-c464c5ea4d623583a1b8b6eba0465948" label="Check enrolment documents" sigExt:diagramId="4db072ea722b42759bfa5c7c27f99741" sigExt:shapeId="sid-E60734FB-A941-40B6-B64A-00C235D95185">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="checkEnrolmentDocuments" name="checkEnrolmentDocuments" id="id-c464c5ea4d623583a1b8b6eba0465948_variable"/>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-0de2344efd35afb5b7d41dd1541c61ae"/>
+        </dmn:informationRequirement>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-45fb4a42025e49b3e91397fa4d288521"/>
+        </dmn:informationRequirement>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-97fbd8f41feac4e5aa789958b3feb80e"/>
+        </dmn:informationRequirement>
+        <dmn:decisionTable hitPolicy="UNIQUE">
+            <dmn:input id="id-291c1876820ced8e430c5e569180d465" label="ID or passport">
+                <dmn:inputExpression>
+                    <dmn:text>idOrPassport</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:input id="id-bd83542601e30bd8643e0fc93ec8e4c4" label="Study VISA">
+                <dmn:inputExpression>
+                    <dmn:text>studyVisa</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:input id="id-21b079fda33d79506ed23db8e3c3577d" label="Receipt of residence permit request">
+                <dmn:inputExpression>
+                    <dmn:text>receiptOfResidencePermitRequest</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:output name="checkEnrolmentDocuments" typeRef="newElement" id="id-3d8881734daa53844df891d0fb25b2d6" label="Check enrolment documents"/>
+            <dmn:annotation name="New Annotation"/>
+            <dmn:rule id="id-2a109d3c0b165ab806966354f99facf3">
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"approved"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+        </dmn:decisionTable>
+    </dmn:decision>
+</dmn:definitions>

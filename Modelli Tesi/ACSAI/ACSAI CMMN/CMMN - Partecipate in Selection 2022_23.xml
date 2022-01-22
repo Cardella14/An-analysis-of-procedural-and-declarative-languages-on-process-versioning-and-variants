@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rdf:RDF xmlns:admin="http://webns.net/mvcb/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:doap="http://usefulinc.com/ns/doap#">
+    <rdf:Description rdf:about="">
+        <admin:generatorAgent rdf:resource="http://purl.org/NET/erdf/extract"/>
+    </rdf:Description>
+    <rdf:Description rdf:about=""/>
+    <rdf:Description rdf:about="#sid-0BDB9AD6-831C-42C7-AE3A-4E8FF9A8FB6D">
+        <ns0:type xmlns:ns0="http://oryx-editor.org/">TimerEventListener</ns0:type>
+        <ns1:bounds xmlns:ns1="http://oryx-editor.org/">375.2126266514982,130,345.2126266514982,100</ns1:bounds>
+        <ns2:name xmlns:ns2="http://oryx-editor.org/">Registration
+time-window opened</ns2:name>
+        <ns3:description xmlns:ns3="http://oryx-editor.org/"/>
+        <ns4:docker xmlns:ns4="http://oryx-editor.org/">360.2126266514982 115  # </ns4:docker>
+        <ns5:outgoing xmlns:ns5="http://raziel.org/" rdf:resource="#sid-5DE05E03-A628-4C82-A42D-9D4E155BB824"/>
+        <ns6:target xmlns:ns6="http://raziel.org/" rdf:resource="#sid-5DE05E03-A628-4C82-A42D-9D4E155BB824"/>
+        <ns7:parent xmlns:ns7="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-3FBB0B29-13AC-438E-B597-024D3EB24525">
+        <ns8:type xmlns:ns8="http://oryx-editor.org/">TimerEventListener</ns8:type>
+        <ns9:bounds xmlns:ns9="http://oryx-editor.org/">375.2126266514982,233.9999999999999,345.2126266514982,203.9999999999999</ns9:bounds>
+        <ns10:name xmlns:ns10="http://oryx-editor.org/">Registration
+time-window opened</ns10:name>
+        <ns11:description xmlns:ns11="http://oryx-editor.org/"/>
+        <ns12:docker xmlns:ns12="http://oryx-editor.org/">360.2126266514982 218.9999999999999  # </ns12:docker>
+        <ns13:outgoing xmlns:ns13="http://raziel.org/" rdf:resource="#sid-85E86DE8-D661-41C3-BD3B-BBC24370FA01"/>
+        <ns14:target xmlns:ns14="http://raziel.org/" rdf:resource="#sid-85E86DE8-D661-41C3-BD3B-BBC24370FA01"/>
+        <ns15:parent xmlns:ns15="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-70E0909E-5DEA-4116-AC56-AFA06D88E65E">
+        <ns16:type xmlns:ns16="http://oryx-editor.org/">TimerEventListener</ns16:type>
+        <ns17:bounds xmlns:ns17="http://oryx-editor.org/">375.2126266514982,338,345.2126266514982,308</ns17:bounds>
+        <ns18:name xmlns:ns18="http://oryx-editor.org/">Registration
+time-window opened</ns18:name>
+        <ns19:description xmlns:ns19="http://oryx-editor.org/"/>
+        <ns20:docker xmlns:ns20="http://oryx-editor.org/">360.2126266514982 323  # </ns20:docker>
+        <ns21:outgoing xmlns:ns21="http://raziel.org/" rdf:resource="#sid-B4669174-0622-47A9-BED1-C0859347AD73"/>
+        <ns22:target xmlns:ns22="http://raziel.org/" rdf:resource="#sid-B4669174-0622-47A9-BED1-C0859347AD73"/>
+        <ns23:parent xmlns:ns23="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-B50F112F-9EF3-402F-834D-AFFCC1F9C660">
+        <ns24:type xmlns:ns24="http://oryx-editor.org/">Task</ns24:type>
+        <ns25:bounds xmlns:ns25="http://oryx-editor.org/">520.2126266514983,155,420.2126266514983,75</ns25:bounds>
+        <ns26:discretionary xmlns:ns26="http://oryx-editor.org/">false</ns26:discretionary>
+        <ns27:bgcolor xmlns:ns27="http://oryx-editor.org/">#FFFFCC</ns27:bgcolor>
+        <ns28:name xmlns:ns28="http://oryx-editor.org/">Partecipate in 1st selection round</ns28:name>
+        <ns29:description xmlns:ns29="http://oryx-editor.org/"/>
+        <ns30:repetition xmlns:ns30="http://oryx-editor.org/">false</ns30:repetition>
+        <ns31:manualactivation xmlns:ns31="http://oryx-editor.org/">false</ns31:manualactivation>
+        <ns32:required xmlns:ns32="http://oryx-editor.org/">false</ns32:required>
+        <ns33:bordercolor xmlns:ns33="http://oryx-editor.org/">#000000</ns33:bordercolor>
+        <ns34:docker xmlns:ns34="http://oryx-editor.org/"> # </ns34:docker>
+        <ns35:outgoing xmlns:ns35="http://raziel.org/" rdf:resource="#sid-B31E84CE-B9E5-408A-8388-B2F9C59BA2B6"/>
+        <ns36:target xmlns:ns36="http://raziel.org/" rdf:resource="#sid-B31E84CE-B9E5-408A-8388-B2F9C59BA2B6"/>
+        <ns37:parent xmlns:ns37="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-6DA36965-410A-416C-9C98-9DF9A0A207A8">
+        <ns38:type xmlns:ns38="http://oryx-editor.org/">Task</ns38:type>
+        <ns39:bounds xmlns:ns39="http://oryx-editor.org/">520.2126266514983,258.9999999999999,420.2126266514983,178.9999999999999</ns39:bounds>
+        <ns40:discretionary xmlns:ns40="http://oryx-editor.org/">false</ns40:discretionary>
+        <ns41:bgcolor xmlns:ns41="http://oryx-editor.org/">#FFFFCC</ns41:bgcolor>
+        <ns42:name xmlns:ns42="http://oryx-editor.org/">Partecipate in 2nd selection round</ns42:name>
+        <ns43:description xmlns:ns43="http://oryx-editor.org/"/>
+        <ns44:repetition xmlns:ns44="http://oryx-editor.org/">false</ns44:repetition>
+        <ns45:manualactivation xmlns:ns45="http://oryx-editor.org/">false</ns45:manualactivation>
+        <ns46:required xmlns:ns46="http://oryx-editor.org/">false</ns46:required>
+        <ns47:bordercolor xmlns:ns47="http://oryx-editor.org/">#000000</ns47:bordercolor>
+        <ns48:docker xmlns:ns48="http://oryx-editor.org/"> # </ns48:docker>
+        <ns49:outgoing xmlns:ns49="http://raziel.org/" rdf:resource="#sid-AB384E38-4A23-43A3-94C0-35DD776658A8"/>
+        <ns50:target xmlns:ns50="http://raziel.org/" rdf:resource="#sid-AB384E38-4A23-43A3-94C0-35DD776658A8"/>
+        <ns51:parent xmlns:ns51="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-B39F455B-B24C-4B6D-B9BE-AF2AC31719E6">
+        <ns52:type xmlns:ns52="http://oryx-editor.org/">Task</ns52:type>
+        <ns53:bounds xmlns:ns53="http://oryx-editor.org/">520.2126266514983,363,420.2126266514983,283</ns53:bounds>
+        <ns54:discretionary xmlns:ns54="http://oryx-editor.org/">false</ns54:discretionary>
+        <ns55:bgcolor xmlns:ns55="http://oryx-editor.org/">#FFFFCC</ns55:bgcolor>
+        <ns56:name xmlns:ns56="http://oryx-editor.org/">Partecipate in 3rd selection round</ns56:name>
+        <ns57:description xmlns:ns57="http://oryx-editor.org/"/>
+        <ns58:repetition xmlns:ns58="http://oryx-editor.org/">false</ns58:repetition>
+        <ns59:manualactivation xmlns:ns59="http://oryx-editor.org/">false</ns59:manualactivation>
+        <ns60:required xmlns:ns60="http://oryx-editor.org/">false</ns60:required>
+        <ns61:bordercolor xmlns:ns61="http://oryx-editor.org/">#000000</ns61:bordercolor>
+        <ns62:docker xmlns:ns62="http://oryx-editor.org/"> # </ns62:docker>
+        <ns63:outgoing xmlns:ns63="http://raziel.org/" rdf:resource="#sid-471ABC8A-93BB-4B17-BA3F-EF4CC00F32A3"/>
+        <ns64:target xmlns:ns64="http://raziel.org/" rdf:resource="#sid-471ABC8A-93BB-4B17-BA3F-EF4CC00F32A3"/>
+        <ns65:parent xmlns:ns65="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-5663B9A9-A050-44E7-B98F-EFC56FF7FA25">
+        <ns66:type xmlns:ns66="http://oryx-editor.org/">EventListener</ns66:type>
+        <ns67:bounds xmlns:ns67="http://oryx-editor.org/">844.2764873956097,130,814.2764873956097,100</ns67:bounds>
+        <ns68:name xmlns:ns68="http://oryx-editor.org/">Ranking published</ns68:name>
+        <ns69:description xmlns:ns69="http://oryx-editor.org/"/>
+        <ns70:docker xmlns:ns70="http://oryx-editor.org/">829.2764873956097 115  # </ns70:docker>
+        <ns71:outgoing xmlns:ns71="http://raziel.org/" rdf:resource="#sid-4317040A-B15D-499B-A9FF-B7E4D2442C10"/>
+        <ns72:target xmlns:ns72="http://raziel.org/" rdf:resource="#sid-4317040A-B15D-499B-A9FF-B7E4D2442C10"/>
+        <ns73:parent xmlns:ns73="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-ADAF9248-106A-4490-A338-090B583D2D53">
+        <ns74:type xmlns:ns74="http://oryx-editor.org/">Milestone</ns74:type>
+        <ns75:bounds xmlns:ns75="http://oryx-editor.org/">1274.3403481397213,248.99999999999994,1144.3403481397213,188.99999999999994</ns75:bounds>
+        <ns76:bgcolor xmlns:ns76="http://oryx-editor.org/">#FFFFCC</ns76:bgcolor>
+        <ns77:name xmlns:ns77="http://oryx-editor.org/">Registration for round completed</ns77:name>
+        <ns78:description xmlns:ns78="http://oryx-editor.org/"/>
+        <ns79:repetition xmlns:ns79="http://oryx-editor.org/">false</ns79:repetition>
+        <ns80:required xmlns:ns80="http://oryx-editor.org/">false</ns80:required>
+        <ns81:bordercolor xmlns:ns81="http://oryx-editor.org/">#000000</ns81:bordercolor>
+        <ns82:docker xmlns:ns82="http://oryx-editor.org/"> # </ns82:docker>
+        <ns83:outgoing xmlns:ns83="http://raziel.org/" rdf:resource="#sid-956BDE18-8EE5-43ED-BDA0-B39FE6ED0AA9"/>
+        <ns84:target xmlns:ns84="http://raziel.org/" rdf:resource="#sid-956BDE18-8EE5-43ED-BDA0-B39FE6ED0AA9"/>
+        <ns85:outgoing xmlns:ns85="http://raziel.org/" rdf:resource="#sid-2019DF17-03B3-431C-973A-06D85B2A83D6"/>
+        <ns86:target xmlns:ns86="http://raziel.org/" rdf:resource="#sid-2019DF17-03B3-431C-973A-06D85B2A83D6"/>
+        <ns87:outgoing xmlns:ns87="http://raziel.org/" rdf:resource="#sid-9AD1FD04-7486-4E4A-B603-A67642C56725"/>
+        <ns88:target xmlns:ns88="http://raziel.org/" rdf:resource="#sid-9AD1FD04-7486-4E4A-B603-A67642C56725"/>
+        <ns89:outgoing xmlns:ns89="http://raziel.org/" rdf:resource="#sid-006AC0EB-086F-40A5-A379-B6C79066C66F"/>
+        <ns90:target xmlns:ns90="http://raziel.org/" rdf:resource="#sid-006AC0EB-086F-40A5-A379-B6C79066C66F"/>
+        <ns91:parent xmlns:ns91="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-40DA981A-EE29-4EFF-AABB-DCCB8E9404C7">
+        <ns92:type xmlns:ns92="http://oryx-editor.org/">EventListener</ns92:type>
+        <ns93:bounds xmlns:ns93="http://oryx-editor.org/">844.2764873956097,233.9999999999999,814.2764873956097,203.9999999999999</ns93:bounds>
+        <ns94:name xmlns:ns94="http://oryx-editor.org/">Ranking published</ns94:name>
+        <ns95:description xmlns:ns95="http://oryx-editor.org/"/>
+        <ns96:docker xmlns:ns96="http://oryx-editor.org/">829.2764873956097 218.9999999999999  # </ns96:docker>
+        <ns97:outgoing xmlns:ns97="http://raziel.org/" rdf:resource="#sid-DE5A6DCB-C587-4599-B9B1-20B68B42C66B"/>
+        <ns98:target xmlns:ns98="http://raziel.org/" rdf:resource="#sid-DE5A6DCB-C587-4599-B9B1-20B68B42C66B"/>
+        <ns99:parent xmlns:ns99="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-956BDE18-8EE5-43ED-BDA0-B39FE6ED0AA9">
+        <ns100:type xmlns:ns100="http://oryx-editor.org/">EntryCriterion</ns100:type>
+        <ns101:bounds xmlns:ns101="http://oryx-editor.org/">1151.4042088838328,232.59219710742317,1137.4042088838328,211.59219710742317</ns101:bounds>
+        <ns102:docker xmlns:ns102="http://oryx-editor.org/">2 33  # </ns102:docker>
+        <ns103:parent xmlns:ns103="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-2019DF17-03B3-431C-973A-06D85B2A83D6">
+        <ns104:type xmlns:ns104="http://oryx-editor.org/">EntryCriterion</ns104:type>
+        <ns105:bounds xmlns:ns105="http://oryx-editor.org/">1216.3403481397213,199.15199279785148,1202.3403481397213,178.15199279785148</ns105:bounds>
+        <ns106:docker xmlns:ns106="http://oryx-editor.org/">65 1.5  # </ns106:docker>
+        <ns107:parent xmlns:ns107="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-9AD1FD04-7486-4E4A-B603-A67642C56725">
+        <ns108:type xmlns:ns108="http://oryx-editor.org/">EntryCriterion</ns108:type>
+        <ns109:bounds xmlns:ns109="http://oryx-editor.org/">1216.3403481397213,260.4999999999999,1202.3403481397213,239.49999999999991</ns109:bounds>
+        <ns110:docker xmlns:ns110="http://oryx-editor.org/">65 60  # </ns110:docker>
+        <ns111:parent xmlns:ns111="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-5A55EDA0-2F33-4952-9E4C-767E294E60ED">
+        <ns112:type xmlns:ns112="http://oryx-editor.org/">Milestone</ns112:type>
+        <ns113:bounds xmlns:ns113="http://oryx-editor.org/">769.2764873956097,353,639.2764873956097,293</ns113:bounds>
+        <ns114:bgcolor xmlns:ns114="http://oryx-editor.org/">#FFFFCC</ns114:bgcolor>
+        <ns115:name xmlns:ns115="http://oryx-editor.org/">Ranking published</ns115:name>
+        <ns116:description xmlns:ns116="http://oryx-editor.org/"/>
+        <ns117:repetition xmlns:ns117="http://oryx-editor.org/">false</ns117:repetition>
+        <ns118:required xmlns:ns118="http://oryx-editor.org/">false</ns118:required>
+        <ns119:bordercolor xmlns:ns119="http://oryx-editor.org/">#000000</ns119:bordercolor>
+        <ns120:docker xmlns:ns120="http://oryx-editor.org/"> # </ns120:docker>
+        <ns121:outgoing xmlns:ns121="http://raziel.org/" rdf:resource="#sid-D0CD7B2F-2394-4924-A442-FF5C57EEE100"/>
+        <ns122:target xmlns:ns122="http://raziel.org/" rdf:resource="#sid-D0CD7B2F-2394-4924-A442-FF5C57EEE100"/>
+        <ns123:parent xmlns:ns123="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-49684557-5864-4DC1-8F89-A9129B78F084">
+        <ns124:type xmlns:ns124="http://oryx-editor.org/">Milestone</ns124:type>
+        <ns125:bounds xmlns:ns125="http://oryx-editor.org/">1018.3403481397212,353,888.3403481397212,293</ns125:bounds>
+        <ns126:bgcolor xmlns:ns126="http://oryx-editor.org/">#FFFFCC</ns126:bgcolor>
+        <ns127:name xmlns:ns127="http://oryx-editor.org/">1st ranking update published</ns127:name>
+        <ns128:description xmlns:ns128="http://oryx-editor.org/"/>
+        <ns129:repetition xmlns:ns129="http://oryx-editor.org/">false</ns129:repetition>
+        <ns130:required xmlns:ns130="http://oryx-editor.org/">false</ns130:required>
+        <ns131:bordercolor xmlns:ns131="http://oryx-editor.org/">#000000</ns131:bordercolor>
+        <ns132:docker xmlns:ns132="http://oryx-editor.org/"> # </ns132:docker>
+        <ns133:outgoing xmlns:ns133="http://raziel.org/" rdf:resource="#sid-3E5FBA38-A38C-49C4-B802-3CFCD0F8095D"/>
+        <ns134:target xmlns:ns134="http://raziel.org/" rdf:resource="#sid-3E5FBA38-A38C-49C4-B802-3CFCD0F8095D"/>
+        <ns135:parent xmlns:ns135="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-C633B3EF-C22C-4E58-9394-A17439EEDAE7">
+        <ns136:type xmlns:ns136="http://oryx-editor.org/">TimerEventListener</ns136:type>
+        <ns137:bounds xmlns:ns137="http://oryx-editor.org/">596.1487659073867,338,565.2126266514982,308</ns137:bounds>
+        <ns138:name xmlns:ns138="http://oryx-editor.org/"/>
+        <ns139:description xmlns:ns139="http://oryx-editor.org/"/>
+        <ns140:type xmlns:ns140="http://oryx-editor.org/">http://signavio.com/stencilsets/cmmn-1.0#EventListener</ns140:type>
+        <ns141:docker xmlns:ns141="http://oryx-editor.org/">580.6806962794425 323  # </ns141:docker>
+        <ns142:outgoing xmlns:ns142="http://raziel.org/" rdf:resource="#sid-155CF09A-450D-4689-967F-9742540B0177"/>
+        <ns143:target xmlns:ns143="http://raziel.org/" rdf:resource="#sid-155CF09A-450D-4689-967F-9742540B0177"/>
+        <ns144:parent xmlns:ns144="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-B17282C2-B32C-418B-BCF0-7439AB3B306B">
+        <ns145:type xmlns:ns145="http://oryx-editor.org/">TimerEventListener</ns145:type>
+        <ns146:bounds xmlns:ns146="http://oryx-editor.org/">845.2126266514982,338,814.2764873956097,308</ns146:bounds>
+        <ns147:name xmlns:ns147="http://oryx-editor.org/"/>
+        <ns148:description xmlns:ns148="http://oryx-editor.org/"/>
+        <ns149:type xmlns:ns149="http://oryx-editor.org/">http://signavio.com/stencilsets/cmmn-1.0#EventListener</ns149:type>
+        <ns150:docker xmlns:ns150="http://oryx-editor.org/">829.744557023554 323  # </ns150:docker>
+        <ns151:outgoing xmlns:ns151="http://raziel.org/" rdf:resource="#sid-51B8E869-5F1A-45ED-B0BB-8E69F157FEFB"/>
+        <ns152:target xmlns:ns152="http://raziel.org/" rdf:resource="#sid-51B8E869-5F1A-45ED-B0BB-8E69F157FEFB"/>
+        <ns153:parent xmlns:ns153="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-4143E27D-D6F4-4BDE-86EA-C0CC15E722F1">
+        <ns154:type xmlns:ns154="http://oryx-editor.org/">TimerEventListener</ns154:type>
+        <ns155:bounds xmlns:ns155="http://oryx-editor.org/">1094.2764873956098,338,1063.3403481397213,308</ns155:bounds>
+        <ns156:name xmlns:ns156="http://oryx-editor.org/"/>
+        <ns157:description xmlns:ns157="http://oryx-editor.org/"/>
+        <ns158:type xmlns:ns158="http://oryx-editor.org/">http://signavio.com/stencilsets/cmmn-1.0#EventListener</ns158:type>
+        <ns159:docker xmlns:ns159="http://oryx-editor.org/">1078.8084177676656 323  # </ns159:docker>
+        <ns160:outgoing xmlns:ns160="http://raziel.org/" rdf:resource="#sid-FFB03F12-B0FB-4F4D-8164-18C3CD4B047D"/>
+        <ns161:target xmlns:ns161="http://raziel.org/" rdf:resource="#sid-FFB03F12-B0FB-4F4D-8164-18C3CD4B047D"/>
+        <ns162:parent xmlns:ns162="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-BEF65508-1AB2-45FF-BF7D-7657EE55AFE6">
+        <ns163:type xmlns:ns163="http://oryx-editor.org/">Milestone</ns163:type>
+        <ns164:bounds xmlns:ns164="http://oryx-editor.org/">1274.3403481397213,353,1144.3403481397213,293</ns164:bounds>
+        <ns165:bgcolor xmlns:ns165="http://oryx-editor.org/">#FFFFCC</ns165:bgcolor>
+        <ns166:name xmlns:ns166="http://oryx-editor.org/">2nd ranking update published</ns166:name>
+        <ns167:description xmlns:ns167="http://oryx-editor.org/"/>
+        <ns168:repetition xmlns:ns168="http://oryx-editor.org/">false</ns168:repetition>
+        <ns169:required xmlns:ns169="http://oryx-editor.org/">false</ns169:required>
+        <ns170:bordercolor xmlns:ns170="http://oryx-editor.org/">#000000</ns170:bordercolor>
+        <ns171:docker xmlns:ns171="http://oryx-editor.org/"> # </ns171:docker>
+        <ns172:outgoing xmlns:ns172="http://raziel.org/" rdf:resource="#sid-A433A18F-B3C3-46DC-99C4-0E8AE05B670B"/>
+        <ns173:target xmlns:ns173="http://raziel.org/" rdf:resource="#sid-A433A18F-B3C3-46DC-99C4-0E8AE05B670B"/>
+        <ns174:parent xmlns:ns174="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-EC275C91-DEB5-4618-AEC7-5D1D08CE3B97">
+        <ns175:type xmlns:ns175="http://oryx-editor.org/">Task</ns175:type>
+        <ns176:bounds xmlns:ns176="http://oryx-editor.org/">300.2126266514982,262.5921971074232,200.21262665149825,182.5921971074232</ns176:bounds>
+        <ns177:discretionary xmlns:ns177="http://oryx-editor.org/">false</ns177:discretionary>
+        <ns178:bgcolor xmlns:ns178="http://oryx-editor.org/">#FFFFCC</ns178:bgcolor>
+        <ns179:name xmlns:ns179="http://oryx-editor.org/">Register on Infostud</ns179:name>
+        <ns180:description xmlns:ns180="http://oryx-editor.org/"/>
+        <ns181:repetition xmlns:ns181="http://oryx-editor.org/">false</ns181:repetition>
+        <ns182:manualactivation xmlns:ns182="http://oryx-editor.org/">false</ns182:manualactivation>
+        <ns183:required xmlns:ns183="http://oryx-editor.org/">false</ns183:required>
+        <ns184:bordercolor xmlns:ns184="http://oryx-editor.org/">#000000</ns184:bordercolor>
+        <ns185:docker xmlns:ns185="http://oryx-editor.org/"> # </ns185:docker>
+        <ns186:outgoing xmlns:ns186="http://raziel.org/" rdf:resource="#sid-06B11830-49E2-4424-99A0-C3E0A5465204"/>
+        <ns187:target xmlns:ns187="http://raziel.org/" rdf:resource="#sid-06B11830-49E2-4424-99A0-C3E0A5465204"/>
+        <ns188:outgoing xmlns:ns188="http://raziel.org/" rdf:resource="#sid-4CBBC04D-337C-440B-800A-4F4C67970582"/>
+        <ns189:target xmlns:ns189="http://raziel.org/" rdf:resource="#sid-4CBBC04D-337C-440B-800A-4F4C67970582"/>
+        <ns190:outgoing xmlns:ns190="http://raziel.org/" rdf:resource="#sid-E9269B1A-400A-495D-828D-0E895F45EE46"/>
+        <ns191:target xmlns:ns191="http://raziel.org/" rdf:resource="#sid-E9269B1A-400A-495D-828D-0E895F45EE46"/>
+        <ns192:parent xmlns:ns192="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-0E7A599F-4647-4982-A095-B23F3E06471F">
+        <ns193:type xmlns:ns193="http://oryx-editor.org/">TimerEventListener</ns193:type>
+        <ns194:bounds xmlns:ns194="http://oryx-editor.org/">116.44740062382078,236.76104673877342,86.44740062382078,206.76104673877342</ns194:bounds>
+        <ns195:name xmlns:ns195="http://oryx-editor.org/">Registration
+time-window opened</ns195:name>
+        <ns196:description xmlns:ns196="http://oryx-editor.org/"/>
+        <ns197:docker xmlns:ns197="http://oryx-editor.org/">101.44740062382078 221.76104673877342  # </ns197:docker>
+        <ns198:outgoing xmlns:ns198="http://raziel.org/" rdf:resource="#sid-0B54DA85-18CA-4B8C-8A61-98E9931B8516"/>
+        <ns199:target xmlns:ns199="http://raziel.org/" rdf:resource="#sid-0B54DA85-18CA-4B8C-8A61-98E9931B8516"/>
+        <ns200:parent xmlns:ns200="http://raziel.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF">
+        <ns201:type xmlns:ns201="http://oryx-editor.org/">CasePlanModel</ns201:type>
+        <ns202:bounds xmlns:ns202="http://oryx-editor.org/">1469.306613548121,481.76094634235426,133.17191683059147,43.76094634235424</ns202:bounds>
+        <ns203:autocomplete xmlns:ns203="http://oryx-editor.org/">false</ns203:autocomplete>
+        <ns204:name xmlns:ns204="http://oryx-editor.org/">Register for selection round</ns204:name>
+        <ns205:description xmlns:ns205="http://oryx-editor.org/"/>
+        <ns206:docker xmlns:ns206="http://oryx-editor.org/"> # </ns206:docker>
+        <ns207:outgoing xmlns:ns207="http://raziel.org/" rdf:resource="#sid-F0AB73C5-77CB-416F-B5B9-AE287E3F0335"/>
+        <ns208:target xmlns:ns208="http://raziel.org/" rdf:resource="#sid-F0AB73C5-77CB-416F-B5B9-AE287E3F0335"/>
+        <ns209:parent xmlns:ns209="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-5DE05E03-A628-4C82-A42D-9D4E155BB824">
+        <ns210:type xmlns:ns210="http://oryx-editor.org/">Connector</ns210:type>
+        <ns211:bounds xmlns:ns211="http://oryx-editor.org/">552.5407934820897,158.76094634235423,508.9939184820897,158.76094634235423</ns211:bounds>
+        <ns212:bordercolor xmlns:ns212="http://oryx-editor.org/">#000000</ns212:bordercolor>
+        <ns213:docker xmlns:ns213="http://oryx-editor.org/">50.000000000000036 40 15 15  # </ns213:docker>
+        <ns214:outgoing xmlns:ns214="http://raziel.org/" rdf:resource="#sid-B50F112F-9EF3-402F-834D-AFFCC1F9C660"/>
+        <ns215:target xmlns:ns215="http://raziel.org/" rdf:resource="#sid-B50F112F-9EF3-402F-834D-AFFCC1F9C660"/>
+        <ns216:parent xmlns:ns216="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-85E86DE8-D661-41C3-BD3B-BBC24370FA01">
+        <ns217:type xmlns:ns217="http://oryx-editor.org/">Connector</ns217:type>
+        <ns218:bounds xmlns:ns218="http://oryx-editor.org/">552.5407934820897,262.76094634235415,508.9939184820897,262.76094634235415</ns218:bounds>
+        <ns219:bordercolor xmlns:ns219="http://oryx-editor.org/">#000000</ns219:bordercolor>
+        <ns220:docker xmlns:ns220="http://oryx-editor.org/">50.000000000000036 40 15 15  # </ns220:docker>
+        <ns221:outgoing xmlns:ns221="http://raziel.org/" rdf:resource="#sid-6DA36965-410A-416C-9C98-9DF9A0A207A8"/>
+        <ns222:target xmlns:ns222="http://raziel.org/" rdf:resource="#sid-6DA36965-410A-416C-9C98-9DF9A0A207A8"/>
+        <ns223:parent xmlns:ns223="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-B4669174-0622-47A9-BED1-C0859347AD73">
+        <ns224:type xmlns:ns224="http://oryx-editor.org/">Connector</ns224:type>
+        <ns225:bounds xmlns:ns225="http://oryx-editor.org/">552.5407934820897,366.76094634235426,508.9939184820897,366.76094634235426</ns225:bounds>
+        <ns226:bordercolor xmlns:ns226="http://oryx-editor.org/">#000000</ns226:bordercolor>
+        <ns227:docker xmlns:ns227="http://oryx-editor.org/">50.000000000000036 40 15 15  # </ns227:docker>
+        <ns228:outgoing xmlns:ns228="http://raziel.org/" rdf:resource="#sid-B39F455B-B24C-4B6D-B9BE-AF2AC31719E6"/>
+        <ns229:target xmlns:ns229="http://raziel.org/" rdf:resource="#sid-B39F455B-B24C-4B6D-B9BE-AF2AC31719E6"/>
+        <ns230:parent xmlns:ns230="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-B31E84CE-B9E5-408A-8388-B2F9C59BA2B6">
+        <ns231:type xmlns:ns231="http://oryx-editor.org/">Connector</ns231:type>
+        <ns232:bounds xmlns:ns232="http://oryx-editor.org/">947.4224721658843,158.76094634235423,653.4753056931986,158.76094634235423</ns232:bounds>
+        <ns233:bordercolor xmlns:ns233="http://oryx-editor.org/">#000000</ns233:bordercolor>
+        <ns234:docker xmlns:ns234="http://oryx-editor.org/">15 15 50.000000000000036 40  # </ns234:docker>
+        <ns235:outgoing xmlns:ns235="http://raziel.org/" rdf:resource="#sid-5663B9A9-A050-44E7-B98F-EFC56FF7FA25"/>
+        <ns236:target xmlns:ns236="http://raziel.org/" rdf:resource="#sid-5663B9A9-A050-44E7-B98F-EFC56FF7FA25"/>
+        <ns237:parent xmlns:ns237="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-AB384E38-4A23-43A3-94C0-35DD776658A8">
+        <ns238:type xmlns:ns238="http://oryx-editor.org/">Connector</ns238:type>
+        <ns239:bounds xmlns:ns239="http://oryx-editor.org/">947.4224721658843,262.76094634235415,653.4753056931986,262.76094634235415</ns239:bounds>
+        <ns240:bordercolor xmlns:ns240="http://oryx-editor.org/">#000000</ns240:bordercolor>
+        <ns241:docker xmlns:ns241="http://oryx-editor.org/">15 15 50.000000000000036 40  # </ns241:docker>
+        <ns242:outgoing xmlns:ns242="http://raziel.org/" rdf:resource="#sid-40DA981A-EE29-4EFF-AABB-DCCB8E9404C7"/>
+        <ns243:target xmlns:ns243="http://raziel.org/" rdf:resource="#sid-40DA981A-EE29-4EFF-AABB-DCCB8E9404C7"/>
+        <ns244:parent xmlns:ns244="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-DE5A6DCB-C587-4599-B9B1-20B68B42C66B">
+        <ns245:type xmlns:ns245="http://oryx-editor.org/">Connector</ns245:type>
+        <ns246:bounds xmlns:ns246="http://oryx-editor.org/">1270.1669467960362,266.2575889440092,978.2668266169695,262.94069296782754</ns246:bounds>
+        <ns247:bordercolor xmlns:ns247="http://oryx-editor.org/">#000000</ns247:bordercolor>
+        <ns248:docker xmlns:ns248="http://oryx-editor.org/">8 11 15 15  # </ns248:docker>
+        <ns249:outgoing xmlns:ns249="http://raziel.org/" rdf:resource="#sid-956BDE18-8EE5-43ED-BDA0-B39FE6ED0AA9"/>
+        <ns250:target xmlns:ns250="http://raziel.org/" rdf:resource="#sid-956BDE18-8EE5-43ED-BDA0-B39FE6ED0AA9"/>
+        <ns251:parent xmlns:ns251="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-4317040A-B15D-499B-A9FF-B7E4D2442C10">
+        <ns252:type xmlns:ns252="http://oryx-editor.org/">Connector</ns252:type>
+        <ns253:bounds xmlns:ns253="http://oryx-editor.org/">1342.985469942454,221.83362446274447,978.1837816701791,152.26939392089844</ns253:bounds>
+        <ns254:bordercolor xmlns:ns254="http://oryx-editor.org/">#000000</ns254:bordercolor>
+        <ns255:docker xmlns:ns255="http://oryx-editor.org/">8 11 1339.6778564453125 152.26939392089844 15 15  # </ns255:docker>
+        <ns256:outgoing xmlns:ns256="http://raziel.org/" rdf:resource="#sid-2019DF17-03B3-431C-973A-06D85B2A83D6"/>
+        <ns257:target xmlns:ns257="http://raziel.org/" rdf:resource="#sid-2019DF17-03B3-431C-973A-06D85B2A83D6"/>
+        <ns258:parent xmlns:ns258="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-006AC0EB-086F-40A5-A379-B6C79066C66F">
+        <ns259:type xmlns:ns259="http://oryx-editor.org/">Connector</ns259:type>
+        <ns260:bounds xmlns:ns260="http://oryx-editor.org/">1462.4216987708937,266.5324552503226,1407.4636064724891,264.8038595252098</ns260:bounds>
+        <ns261:bordercolor xmlns:ns261="http://oryx-editor.org/">#000000</ns261:bordercolor>
+        <ns262:docker xmlns:ns262="http://oryx-editor.org/">8 11.26190476190476 65 30  # </ns262:docker>
+        <ns263:outgoing xmlns:ns263="http://raziel.org/" rdf:resource="#sid-F0AB73C5-77CB-416F-B5B9-AE287E3F0335"/>
+        <ns264:target xmlns:ns264="http://raziel.org/" rdf:resource="#sid-F0AB73C5-77CB-416F-B5B9-AE287E3F0335"/>
+        <ns265:parent xmlns:ns265="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-471ABC8A-93BB-4B17-BA3F-EF4CC00F32A3">
+        <ns266:type xmlns:ns266="http://oryx-editor.org/">Connector</ns266:type>
+        <ns267:bounds xmlns:ns267="http://oryx-editor.org/">697.7462007154359,366.76094634235426,653.7992204120965,366.76094634235426</ns267:bounds>
+        <ns268:bordercolor xmlns:ns268="http://oryx-editor.org/">#000000</ns268:bordercolor>
+        <ns269:docker xmlns:ns269="http://oryx-editor.org/">15.966292053348274 15 50.000000000000036 40  # </ns269:docker>
+        <ns270:outgoing xmlns:ns270="http://raziel.org/" rdf:resource="#sid-C633B3EF-C22C-4E58-9394-A17439EEDAE7"/>
+        <ns271:target xmlns:ns271="http://raziel.org/" rdf:resource="#sid-C633B3EF-C22C-4E58-9394-A17439EEDAE7"/>
+        <ns272:parent xmlns:ns272="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-155CF09A-450D-4689-967F-9742540B0177">
+        <ns273:type xmlns:ns273="http://oryx-editor.org/">Connector</ns273:type>
+        <ns274:bounds xmlns:ns274="http://oryx-editor.org/">772.0145206146298,366.76094634235426,728.8146321109903,366.76094634235426</ns274:bounds>
+        <ns275:bordercolor xmlns:ns275="http://oryx-editor.org/">#000000</ns275:bordercolor>
+        <ns276:docker xmlns:ns276="http://oryx-editor.org/">65 30 15.966292053348274 15  # </ns276:docker>
+        <ns277:outgoing xmlns:ns277="http://raziel.org/" rdf:resource="#sid-5A55EDA0-2F33-4952-9E4C-767E294E60ED"/>
+        <ns278:target xmlns:ns278="http://raziel.org/" rdf:resource="#sid-5A55EDA0-2F33-4952-9E4C-767E294E60ED"/>
+        <ns279:parent xmlns:ns279="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-D0CD7B2F-2394-4924-A442-FF5C57EEE100">
+        <ns280:type xmlns:ns280="http://oryx-editor.org/">Connector</ns280:type>
+        <ns281:bounds xmlns:ns281="http://oryx-editor.org/">946.668909772881,366.76094634235426,903.399773566209,366.76094634235426</ns281:bounds>
+        <ns282:bordercolor xmlns:ns282="http://oryx-editor.org/">#000000</ns282:bordercolor>
+        <ns283:docker xmlns:ns283="http://oryx-editor.org/">15.966292053348274 15 65 30  # </ns283:docker>
+        <ns284:outgoing xmlns:ns284="http://raziel.org/" rdf:resource="#sid-B17282C2-B32C-418B-BCF0-7439AB3B306B"/>
+        <ns285:target xmlns:ns285="http://raziel.org/" rdf:resource="#sid-B17282C2-B32C-418B-BCF0-7439AB3B306B"/>
+        <ns286:parent xmlns:ns286="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-51B8E869-5F1A-45ED-B0BB-8E69F157FEFB">
+        <ns287:type xmlns:ns287="http://oryx-editor.org/">Connector</ns287:type>
+        <ns288:bounds xmlns:ns288="http://oryx-editor.org/">1021.0783813587412,366.76094634235426,977.8784928551017,366.76094634235426</ns288:bounds>
+        <ns289:bordercolor xmlns:ns289="http://oryx-editor.org/">#000000</ns289:bordercolor>
+        <ns290:docker xmlns:ns290="http://oryx-editor.org/">65 30 15.966292053348274 15  # </ns290:docker>
+        <ns291:outgoing xmlns:ns291="http://raziel.org/" rdf:resource="#sid-49684557-5864-4DC1-8F89-A9129B78F084"/>
+        <ns292:target xmlns:ns292="http://raziel.org/" rdf:resource="#sid-49684557-5864-4DC1-8F89-A9129B78F084"/>
+        <ns293:parent xmlns:ns293="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-3E5FBA38-A38C-49C4-B802-3CFCD0F8095D">
+        <ns294:type xmlns:ns294="http://oryx-editor.org/">Connector</ns294:type>
+        <ns295:bounds xmlns:ns295="http://oryx-editor.org/">1195.7327705169923,366.76094634235426,1152.4636343103202,366.76094634235426</ns295:bounds>
+        <ns296:bordercolor xmlns:ns296="http://oryx-editor.org/">#000000</ns296:bordercolor>
+        <ns297:docker xmlns:ns297="http://oryx-editor.org/">15.966292053348274 15 65 30  # </ns297:docker>
+        <ns298:outgoing xmlns:ns298="http://raziel.org/" rdf:resource="#sid-4143E27D-D6F4-4BDE-86EA-C0CC15E722F1"/>
+        <ns299:target xmlns:ns299="http://raziel.org/" rdf:resource="#sid-4143E27D-D6F4-4BDE-86EA-C0CC15E722F1"/>
+        <ns300:parent xmlns:ns300="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-FFB03F12-B0FB-4F4D-8164-18C3CD4B047D">
+        <ns301:type xmlns:ns301="http://oryx-editor.org/">Connector</ns301:type>
+        <ns302:bounds xmlns:ns302="http://oryx-editor.org/">1277.2660804903167,366.76094634235426,1226.2374837766688,366.76094634235426</ns302:bounds>
+        <ns303:bordercolor xmlns:ns303="http://oryx-editor.org/">#000000</ns303:bordercolor>
+        <ns304:docker xmlns:ns304="http://oryx-editor.org/">65 30 15.468069627944265 15  # </ns304:docker>
+        <ns305:outgoing xmlns:ns305="http://raziel.org/" rdf:resource="#sid-BEF65508-1AB2-45FF-BF7D-7657EE55AFE6"/>
+        <ns306:target xmlns:ns306="http://raziel.org/" rdf:resource="#sid-BEF65508-1AB2-45FF-BF7D-7657EE55AFE6"/>
+        <ns307:parent xmlns:ns307="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-A433A18F-B3C3-46DC-99C4-0E8AE05B670B">
+        <ns308:type xmlns:ns308="http://oryx-editor.org/">Connector</ns308:type>
+        <ns309:bounds xmlns:ns309="http://oryx-editor.org/">1343.301782536543,336.08152297336784,1342.5508724040826,303.41693221134057</ns309:bounds>
+        <ns310:bordercolor xmlns:ns310="http://oryx-editor.org/">#000000</ns310:bordercolor>
+        <ns311:docker xmlns:ns311="http://oryx-editor.org/">8 10.999999999999986 65 1  # </ns311:docker>
+        <ns312:outgoing xmlns:ns312="http://raziel.org/" rdf:resource="#sid-9AD1FD04-7486-4E4A-B603-A67642C56725"/>
+        <ns313:target xmlns:ns313="http://raziel.org/" rdf:resource="#sid-9AD1FD04-7486-4E4A-B603-A67642C56725"/>
+        <ns314:parent xmlns:ns314="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-F0AB73C5-77CB-416F-B5B9-AE287E3F0335">
+        <ns315:type xmlns:ns315="http://oryx-editor.org/">ExitCriterion</ns315:type>
+        <ns316:bounds xmlns:ns316="http://oryx-editor.org/">1476.4159365311396,277.0219930811277,1462.4159365311396,255.52199308112768</ns316:bounds>
+        <ns317:type xmlns:ns317="http://oryx-editor.org/">http://signavio.com/stencilsets/cmmn-1.0#EntryCriterion</ns317:type>
+        <ns318:docker xmlns:ns318="http://oryx-editor.org/">1333.7926551807768 222  # </ns318:docker>
+        <ns319:outgoing xmlns:ns319="http://raziel.org/" rdf:resource="#sid-14245568-0F3A-4CFC-8A6E-2202DA8C206C"/>
+        <ns320:target xmlns:ns320="http://raziel.org/" rdf:resource="#sid-14245568-0F3A-4CFC-8A6E-2202DA8C206C"/>
+        <ns321:parent xmlns:ns321="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-14245568-0F3A-4CFC-8A6E-2202DA8C206C">
+        <ns322:type xmlns:ns322="http://oryx-editor.org/">AnnotationAssociation</ns322:type>
+        <ns323:bounds xmlns:ns323="http://oryx-editor.org/">1514.1579932608875,260.2779719685865,1473.6688073035443,179.29730566305378</ns323:bounds>
+        <ns324:bordercolor xmlns:ns324="http://oryx-editor.org/">#000000</ns324:bordercolor>
+        <ns325:docker xmlns:ns325="http://oryx-editor.org/">1 24 8 11.26190476190476  # </ns325:docker>
+        <ns326:outgoing xmlns:ns326="http://raziel.org/" rdf:resource="#sid-C5C9862A-B7B9-4871-81BB-D97C66331D5A"/>
+        <ns327:target xmlns:ns327="http://raziel.org/" rdf:resource="#sid-C5C9862A-B7B9-4871-81BB-D97C66331D5A"/>
+        <ns328:parent xmlns:ns328="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-CC1A0BB6-ACDD-487B-A171-AFB9BBD4DA8F">
+        <ns329:type xmlns:ns329="http://oryx-editor.org/">EventListener</ns329:type>
+        <ns330:bounds xmlns:ns330="http://oryx-editor.org/">70,190,40,160</ns330:bounds>
+        <ns331:name xmlns:ns331="http://oryx-editor.org/">Infostud opened</ns331:name>
+        <ns332:description xmlns:ns332="http://oryx-editor.org/"/>
+        <ns333:docker xmlns:ns333="http://oryx-editor.org/">55 175  # </ns333:docker>
+        <ns334:outgoing xmlns:ns334="http://raziel.org/" rdf:resource="#sid-2AB1E5A6-9B90-47D7-B177-728A42622E14"/>
+        <ns335:target xmlns:ns335="http://raziel.org/" rdf:resource="#sid-2AB1E5A6-9B90-47D7-B177-728A42622E14"/>
+        <ns336:parent xmlns:ns336="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-59968309-346C-4196-B4D1-B6B057A35426">
+        <ns337:type xmlns:ns337="http://oryx-editor.org/">Task</ns337:type>
+        <ns338:bounds xmlns:ns338="http://oryx-editor.org/">215,215,115,135</ns338:bounds>
+        <ns339:discretionary xmlns:ns339="http://oryx-editor.org/">false</ns339:discretionary>
+        <ns340:bgcolor xmlns:ns340="http://oryx-editor.org/">#FFFFCC</ns340:bgcolor>
+        <ns341:name xmlns:ns341="http://oryx-editor.org/">Print the payment slip</ns341:name>
+        <ns342:description xmlns:ns342="http://oryx-editor.org/"/>
+        <ns343:repetition xmlns:ns343="http://oryx-editor.org/">false</ns343:repetition>
+        <ns344:manualactivation xmlns:ns344="http://oryx-editor.org/">false</ns344:manualactivation>
+        <ns345:required xmlns:ns345="http://oryx-editor.org/">false</ns345:required>
+        <ns346:bordercolor xmlns:ns346="http://oryx-editor.org/">#000000</ns346:bordercolor>
+        <ns347:docker xmlns:ns347="http://oryx-editor.org/"> # </ns347:docker>
+        <ns348:parent xmlns:ns348="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-CC2E8EBC-6391-4F2E-84FB-D4E76902E747">
+        <ns349:type xmlns:ns349="http://oryx-editor.org/">Task</ns349:type>
+        <ns350:bounds xmlns:ns350="http://oryx-editor.org/">387.4042088838328,137,287.4042088838328,57</ns350:bounds>
+        <ns351:discretionary xmlns:ns351="http://oryx-editor.org/">false</ns351:discretionary>
+        <ns352:bgcolor xmlns:ns352="http://oryx-editor.org/">#FFFFCC</ns352:bgcolor>
+        <ns353:name xmlns:ns353="http://oryx-editor.org/">Pay phisically to Unicredit Bank</ns353:name>
+        <ns354:description xmlns:ns354="http://oryx-editor.org/"/>
+        <ns355:repetition xmlns:ns355="http://oryx-editor.org/">false</ns355:repetition>
+        <ns356:manualactivation xmlns:ns356="http://oryx-editor.org/">false</ns356:manualactivation>
+        <ns357:required xmlns:ns357="http://oryx-editor.org/">false</ns357:required>
+        <ns358:bordercolor xmlns:ns358="http://oryx-editor.org/">#000000</ns358:bordercolor>
+        <ns359:docker xmlns:ns359="http://oryx-editor.org/"> # </ns359:docker>
+        <ns360:outgoing xmlns:ns360="http://raziel.org/" rdf:resource="#sid-53317534-2CB3-47CF-A10A-7EEE5A3DED1C"/>
+        <ns361:target xmlns:ns361="http://raziel.org/" rdf:resource="#sid-53317534-2CB3-47CF-A10A-7EEE5A3DED1C"/>
+        <ns362:parent xmlns:ns362="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-6CBFF060-570A-4F82-B347-1BED67BC6A4E">
+        <ns363:type xmlns:ns363="http://oryx-editor.org/">Task</ns363:type>
+        <ns364:bounds xmlns:ns364="http://oryx-editor.org/">387.4042088838328,293,287.4042088838328,213</ns364:bounds>
+        <ns365:discretionary xmlns:ns365="http://oryx-editor.org/">false</ns365:discretionary>
+        <ns366:bgcolor xmlns:ns366="http://oryx-editor.org/">#FFFFCC</ns366:bgcolor>
+        <ns367:name xmlns:ns367="http://oryx-editor.org/">Pay on-line on PagoPA</ns367:name>
+        <ns368:description xmlns:ns368="http://oryx-editor.org/"/>
+        <ns369:repetition xmlns:ns369="http://oryx-editor.org/">false</ns369:repetition>
+        <ns370:manualactivation xmlns:ns370="http://oryx-editor.org/">false</ns370:manualactivation>
+        <ns371:required xmlns:ns371="http://oryx-editor.org/">false</ns371:required>
+        <ns372:bordercolor xmlns:ns372="http://oryx-editor.org/">#000000</ns372:bordercolor>
+        <ns373:docker xmlns:ns373="http://oryx-editor.org/"> # </ns373:docker>
+        <ns374:outgoing xmlns:ns374="http://raziel.org/" rdf:resource="#sid-7EC61902-A85D-44EF-A75F-CAAAE79DC4B6"/>
+        <ns375:target xmlns:ns375="http://raziel.org/" rdf:resource="#sid-7EC61902-A85D-44EF-A75F-CAAAE79DC4B6"/>
+        <ns376:parent xmlns:ns376="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-BBBD5497-D0AB-4C3D-A98B-3C3ED8F28D6B">
+        <ns377:type xmlns:ns377="http://oryx-editor.org/">Milestone</ns377:type>
+        <ns378:bounds xmlns:ns378="http://oryx-editor.org/">589.8084177676656,205,459.80841776766556,145</ns378:bounds>
+        <ns379:bgcolor xmlns:ns379="http://oryx-editor.org/">#FFFFCC</ns379:bgcolor>
+        <ns380:name xmlns:ns380="http://oryx-editor.org/">Payment done</ns380:name>
+        <ns381:description xmlns:ns381="http://oryx-editor.org/"/>
+        <ns382:repetition xmlns:ns382="http://oryx-editor.org/">false</ns382:repetition>
+        <ns383:required xmlns:ns383="http://oryx-editor.org/">false</ns383:required>
+        <ns384:bordercolor xmlns:ns384="http://oryx-editor.org/">#000000</ns384:bordercolor>
+        <ns385:docker xmlns:ns385="http://oryx-editor.org/"> # </ns385:docker>
+        <ns386:outgoing xmlns:ns386="http://raziel.org/" rdf:resource="#sid-97EAA917-544A-49CB-80E6-877A937F9240"/>
+        <ns387:target xmlns:ns387="http://raziel.org/" rdf:resource="#sid-97EAA917-544A-49CB-80E6-877A937F9240"/>
+        <ns388:outgoing xmlns:ns388="http://raziel.org/" rdf:resource="#sid-52B3BBC4-DF9C-4A5D-BEC9-5260FC53CBB7"/>
+        <ns389:target xmlns:ns389="http://raziel.org/" rdf:resource="#sid-52B3BBC4-DF9C-4A5D-BEC9-5260FC53CBB7"/>
+        <ns390:outgoing xmlns:ns390="http://raziel.org/" rdf:resource="#sid-FEB3177F-7D23-47EE-A563-96328B676752"/>
+        <ns391:target xmlns:ns391="http://raziel.org/" rdf:resource="#sid-FEB3177F-7D23-47EE-A563-96328B676752"/>
+        <ns392:parent xmlns:ns392="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-52B3BBC4-DF9C-4A5D-BEC9-5260FC53CBB7">
+        <ns393:type xmlns:ns393="http://oryx-editor.org/">EntryCriterion</ns393:type>
+        <ns394:bounds xmlns:ns394="http://oryx-editor.org/">468.9361392558885,168,454.9361392558885,147</ns394:bounds>
+        <ns395:docker xmlns:ns395="http://oryx-editor.org/">2.12772148822296 12.5  # </ns395:docker>
+        <ns396:parent xmlns:ns396="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-FEB3177F-7D23-47EE-A563-96328B676752">
+        <ns397:type xmlns:ns397="http://oryx-editor.org/">EntryCriterion</ns397:type>
+        <ns398:bounds xmlns:ns398="http://oryx-editor.org/">468.9361392558885,203,454.9361392558885,182</ns398:bounds>
+        <ns399:docker xmlns:ns399="http://oryx-editor.org/">2.12772148822296 47.5  # </ns399:docker>
+        <ns400:parent xmlns:ns400="http://raziel.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C">
+        <ns401:type xmlns:ns401="http://oryx-editor.org/">CasePlanModel</ns401:type>
+        <ns402:bounds xmlns:ns402="http://oryx-editor.org/">799,855,130,523</ns402:bounds>
+        <ns403:autocomplete xmlns:ns403="http://oryx-editor.org/">false</ns403:autocomplete>
+        <ns404:name xmlns:ns404="http://oryx-editor.org/">Payment for selection round</ns404:name>
+        <ns405:description xmlns:ns405="http://oryx-editor.org/"/>
+        <ns406:docker xmlns:ns406="http://oryx-editor.org/"> # </ns406:docker>
+        <ns407:parent xmlns:ns407="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-2AB1E5A6-9B90-47D7-B177-728A42622E14">
+        <ns408:type xmlns:ns408="http://oryx-editor.org/">Connector</ns408:type>
+        <ns409:bounds xmlns:ns409="http://oryx-editor.org/">244.15625,698,200.609375,698</ns409:bounds>
+        <ns410:bordercolor xmlns:ns410="http://oryx-editor.org/">#000000</ns410:bordercolor>
+        <ns411:docker xmlns:ns411="http://oryx-editor.org/">50 40 15 15  # </ns411:docker>
+        <ns412:outgoing xmlns:ns412="http://raziel.org/" rdf:resource="#sid-59968309-346C-4196-B4D1-B6B057A35426"/>
+        <ns413:target xmlns:ns413="http://raziel.org/" rdf:resource="#sid-59968309-346C-4196-B4D1-B6B057A35426"/>
+        <ns414:parent xmlns:ns414="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-97EAA917-544A-49CB-80E6-877A937F9240">
+        <ns415:type xmlns:ns415="http://oryx-editor.org/">Connector</ns415:type>
+        <ns416:bounds xmlns:ns416="http://oryx-editor.org/">791.6975255449505,698.2457863339534,720.7644413741233,698.1184249755704</ns416:bounds>
+        <ns417:bordercolor xmlns:ns417="http://oryx-editor.org/">#000000</ns417:bordercolor>
+        <ns418:docker xmlns:ns418="http://oryx-editor.org/">8.46195301009459 11.261904761904821 65 30  # </ns418:docker>
+        <ns419:outgoing xmlns:ns419="http://raziel.org/" rdf:resource="#sid-EC676DFE-9934-4EB3-B173-F303FA0421E4"/>
+        <ns420:target xmlns:ns420="http://raziel.org/" rdf:resource="#sid-EC676DFE-9934-4EB3-B173-F303FA0421E4"/>
+        <ns421:parent xmlns:ns421="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-EC676DFE-9934-4EB3-B173-F303FA0421E4">
+        <ns422:type xmlns:ns422="http://oryx-editor.org/">ExitCriterion</ns422:type>
+        <ns423:bounds xmlns:ns423="http://oryx-editor.org/">807.0210444191639,708.5,792.2126266514983,687</ns423:bounds>
+        <ns424:type xmlns:ns424="http://oryx-editor.org/">http://signavio.com/stencilsets/cmmn-1.0#EntryCriterion</ns424:type>
+        <ns425:docker xmlns:ns425="http://oryx-editor.org/">799.6168355353311 697.75  # </ns425:docker>
+        <ns426:outgoing xmlns:ns426="http://raziel.org/" rdf:resource="#sid-92B3A8FA-3605-447B-AA33-6178E3DAC104"/>
+        <ns427:target xmlns:ns427="http://raziel.org/" rdf:resource="#sid-92B3A8FA-3605-447B-AA33-6178E3DAC104"/>
+        <ns428:parent xmlns:ns428="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-7EC61902-A85D-44EF-A75F-CAAAE79DC4B6">
+        <ns429:type xmlns:ns429="http://oryx-editor.org/">Connector</ns429:type>
+        <ns430:bounds xmlns:ns430="http://oryx-editor.org/">585.0106131454095,776,518.0228931200229,716</ns430:bounds>
+        <ns431:bordercolor xmlns:ns431="http://oryx-editor.org/">#000000</ns431:bordercolor>
+        <ns432:docker xmlns:ns432="http://oryx-editor.org/">8 11 556 716 556 776 99 40  # </ns432:docker>
+        <ns433:outgoing xmlns:ns433="http://raziel.org/" rdf:resource="#sid-FEB3177F-7D23-47EE-A563-96328B676752"/>
+        <ns434:target xmlns:ns434="http://raziel.org/" rdf:resource="#sid-FEB3177F-7D23-47EE-A563-96328B676752"/>
+        <ns435:parent xmlns:ns435="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-53317534-2CB3-47CF-A10A-7EEE5A3DED1C">
+        <ns436:type xmlns:ns436="http://oryx-editor.org/">Connector</ns436:type>
+        <ns437:bounds xmlns:ns437="http://oryx-editor.org/">584.2938587936629,681,518.0541431200229,620</ns437:bounds>
+        <ns438:bordercolor xmlns:ns438="http://oryx-editor.org/">#000000</ns438:bordercolor>
+        <ns439:docker xmlns:ns439="http://oryx-editor.org/">8 11 558 681 558 620 99 40  # </ns439:docker>
+        <ns440:outgoing xmlns:ns440="http://raziel.org/" rdf:resource="#sid-52B3BBC4-DF9C-4A5D-BEC9-5260FC53CBB7"/>
+        <ns441:target xmlns:ns441="http://raziel.org/" rdf:resource="#sid-52B3BBC4-DF9C-4A5D-BEC9-5260FC53CBB7"/>
+        <ns442:parent xmlns:ns442="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-2DDB4EBD-BFF4-478E-AF8C-71E0892A278C">
+        <ns443:type xmlns:ns443="http://oryx-editor.org/">TextAnnotation</ns443:type>
+        <ns444:bounds xmlns:ns444="http://oryx-editor.org/">944,642,844,592</ns444:bounds>
+        <ns445:name xmlns:ns445="http://oryx-editor.org/"/>
+        <ns446:description xmlns:ns446="http://oryx-editor.org/"/>
+        <ns447:text xmlns:ns447="http://oryx-editor.org/">Receipt of the payment received</ns447:text>
+        <ns448:docker xmlns:ns448="http://oryx-editor.org/"> # </ns448:docker>
+        <ns449:parent xmlns:ns449="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-92B3A8FA-3605-447B-AA33-6178E3DAC104">
+        <ns450:type xmlns:ns450="http://oryx-editor.org/">AnnotationAssociation</ns450:type>
+        <ns451:bounds xmlns:ns451="http://oryx-editor.org/">843.833062066987,692.8828722477766,803.572979326575,618.1656768593663</ns451:bounds>
+        <ns452:bordercolor xmlns:ns452="http://oryx-editor.org/">#000000</ns452:bordercolor>
+        <ns453:docker xmlns:ns453="http://oryx-editor.org/">1 24 8.461953010094605 11.26190476190476  # </ns453:docker>
+        <ns454:outgoing xmlns:ns454="http://raziel.org/" rdf:resource="#sid-2DDB4EBD-BFF4-478E-AF8C-71E0892A278C"/>
+        <ns455:target xmlns:ns455="http://raziel.org/" rdf:resource="#sid-2DDB4EBD-BFF4-478E-AF8C-71E0892A278C"/>
+        <ns456:parent xmlns:ns456="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-E9269B1A-400A-495D-828D-0E895F45EE46">
+        <ns457:type xmlns:ns457="http://oryx-editor.org/">Connector</ns457:type>
+        <ns458:bounds xmlns:ns458="http://oryx-editor.org/">478.0893979117037,266.23822873627944,434.33593905247574,263.661654173101</ns458:bounds>
+        <ns459:bordercolor xmlns:ns459="http://oryx-editor.org/">#000000</ns459:bordercolor>
+        <ns460:docker xmlns:ns460="http://oryx-editor.org/">15 15 98.99999999999997 40  # </ns460:docker>
+        <ns461:outgoing xmlns:ns461="http://raziel.org/" rdf:resource="#sid-3FBB0B29-13AC-438E-B597-024D3EB24525"/>
+        <ns462:target xmlns:ns462="http://raziel.org/" rdf:resource="#sid-3FBB0B29-13AC-438E-B597-024D3EB24525"/>
+        <ns463:parent xmlns:ns463="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-C5C9862A-B7B9-4871-81BB-D97C66331D5A">
+        <ns464:type xmlns:ns464="http://oryx-editor.org/">TextAnnotation</ns464:type>
+        <ns465:bounds xmlns:ns465="http://oryx-editor.org/">1614.306613548121,203,1514.306613548121,153</ns465:bounds>
+        <ns466:name xmlns:ns466="http://oryx-editor.org/"/>
+        <ns467:description xmlns:ns467="http://oryx-editor.org/"/>
+        <ns468:text xmlns:ns468="http://oryx-editor.org/">Selection round closed</ns468:text>
+        <ns469:docker xmlns:ns469="http://oryx-editor.org/"> # </ns469:docker>
+        <ns470:parent xmlns:ns470="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-06B11830-49E2-4424-99A0-C3E0A5465204">
+        <ns471:type xmlns:ns471="http://oryx-editor.org/">Connector</ns471:type>
+        <ns472:bounds xmlns:ns472="http://oryx-editor.org/">477.7751684820897,226.1923503325286,383.3845434820897,158.76094634235423</ns472:bounds>
+        <ns473:bordercolor xmlns:ns473="http://oryx-editor.org/">#000000</ns473:bordercolor>
+        <ns474:docker xmlns:ns474="http://oryx-editor.org/">15 15 383.3845434820897 158.76094634235423 49.999999999999986 20  # </ns474:docker>
+        <ns475:outgoing xmlns:ns475="http://raziel.org/" rdf:resource="#sid-0BDB9AD6-831C-42C7-AE3A-4E8FF9A8FB6D"/>
+        <ns476:target xmlns:ns476="http://raziel.org/" rdf:resource="#sid-0BDB9AD6-831C-42C7-AE3A-4E8FF9A8FB6D"/>
+        <ns477:parent xmlns:ns477="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-4CBBC04D-337C-440B-800A-4F4C67970582">
+        <ns478:type xmlns:ns478="http://oryx-editor.org/">Connector</ns478:type>
+        <ns479:bounds xmlns:ns479="http://oryx-editor.org/">477.7751684820897,366.76094634235426,383.3845434820897,306.82690821282347</ns479:bounds>
+        <ns480:bordercolor xmlns:ns480="http://oryx-editor.org/">#000000</ns480:bordercolor>
+        <ns481:docker xmlns:ns481="http://oryx-editor.org/">15 15 383.3845434820897 366.76094634235426 49.999999999999986 60.00000000000001  # </ns481:docker>
+        <ns482:outgoing xmlns:ns482="http://raziel.org/" rdf:resource="#sid-70E0909E-5DEA-4116-AC56-AFA06D88E65E"/>
+        <ns483:target xmlns:ns483="http://raziel.org/" rdf:resource="#sid-70E0909E-5DEA-4116-AC56-AFA06D88E65E"/>
+        <ns484:parent xmlns:ns484="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#sid-0B54DA85-18CA-4B8C-8A61-98E9931B8516">
+        <ns485:type xmlns:ns485="http://oryx-editor.org/">Connector</ns485:type>
+        <ns486:bounds xmlns:ns486="http://oryx-editor.org/">332.4087409703003,266.06834196638493,250.14715595179416,265.6087470157402</ns486:bounds>
+        <ns487:bordercolor xmlns:ns487="http://oryx-editor.org/">#000000</ns487:bordercolor>
+        <ns488:docker xmlns:ns488="http://oryx-editor.org/">50 39.999999999999915 15 14.999999999999972  # </ns488:docker>
+        <ns489:outgoing xmlns:ns489="http://raziel.org/" rdf:resource="#sid-EC275C91-DEB5-4618-AEC7-5D1D08CE3B97"/>
+        <ns490:target xmlns:ns490="http://raziel.org/" rdf:resource="#sid-EC275C91-DEB5-4618-AEC7-5D1D08CE3B97"/>
+        <ns491:parent xmlns:ns491="http://raziel.org/" rdf:resource="#canvas"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#canvas">
+        <rdf:type rdf:resource="http://oryx-editor.org/canvas"/>
+        <ns492:type xmlns:ns492="http://oryx-editor.org/">Case</ns492:type>
+        <ns493:bounds xmlns:ns493="http://oryx-editor.org/">1714.306613548121,1050,0,0</ns493:bounds>
+        <ns494:orientation xmlns:ns494="http://oryx-editor.org/">horizontal</ns494:orientation>
+        <ns495:documentation xmlns:ns495="http://oryx-editor.org/"/>
+        <ns496:render xmlns:ns496="http://oryx-editor.org/" rdf:resource="#sid-1E05AF59-3A99-4A5C-80D8-FE9C2F6D54FF"/>
+        <ns497:render xmlns:ns497="http://oryx-editor.org/" rdf:resource="#sid-0BDB9AD6-831C-42C7-AE3A-4E8FF9A8FB6D"/>
+        <ns498:render xmlns:ns498="http://oryx-editor.org/" rdf:resource="#sid-3FBB0B29-13AC-438E-B597-024D3EB24525"/>
+        <ns499:render xmlns:ns499="http://oryx-editor.org/" rdf:resource="#sid-70E0909E-5DEA-4116-AC56-AFA06D88E65E"/>
+        <ns500:render xmlns:ns500="http://oryx-editor.org/" rdf:resource="#sid-B50F112F-9EF3-402F-834D-AFFCC1F9C660"/>
+        <ns501:render xmlns:ns501="http://oryx-editor.org/" rdf:resource="#sid-6DA36965-410A-416C-9C98-9DF9A0A207A8"/>
+        <ns502:render xmlns:ns502="http://oryx-editor.org/" rdf:resource="#sid-B39F455B-B24C-4B6D-B9BE-AF2AC31719E6"/>
+        <ns503:render xmlns:ns503="http://oryx-editor.org/" rdf:resource="#sid-5663B9A9-A050-44E7-B98F-EFC56FF7FA25"/>
+        <ns504:render xmlns:ns504="http://oryx-editor.org/" rdf:resource="#sid-ADAF9248-106A-4490-A338-090B583D2D53"/>
+        <ns505:render xmlns:ns505="http://oryx-editor.org/" rdf:resource="#sid-40DA981A-EE29-4EFF-AABB-DCCB8E9404C7"/>
+        <ns506:render xmlns:ns506="http://oryx-editor.org/" rdf:resource="#sid-956BDE18-8EE5-43ED-BDA0-B39FE6ED0AA9"/>
+        <ns507:render xmlns:ns507="http://oryx-editor.org/" rdf:resource="#sid-2019DF17-03B3-431C-973A-06D85B2A83D6"/>
+        <ns508:render xmlns:ns508="http://oryx-editor.org/" rdf:resource="#sid-9AD1FD04-7486-4E4A-B603-A67642C56725"/>
+        <ns509:render xmlns:ns509="http://oryx-editor.org/" rdf:resource="#sid-5A55EDA0-2F33-4952-9E4C-767E294E60ED"/>
+        <ns510:render xmlns:ns510="http://oryx-editor.org/" rdf:resource="#sid-49684557-5864-4DC1-8F89-A9129B78F084"/>
+        <ns511:render xmlns:ns511="http://oryx-editor.org/" rdf:resource="#sid-C633B3EF-C22C-4E58-9394-A17439EEDAE7"/>
+        <ns512:render xmlns:ns512="http://oryx-editor.org/" rdf:resource="#sid-B17282C2-B32C-418B-BCF0-7439AB3B306B"/>
+        <ns513:render xmlns:ns513="http://oryx-editor.org/" rdf:resource="#sid-4143E27D-D6F4-4BDE-86EA-C0CC15E722F1"/>
+        <ns514:render xmlns:ns514="http://oryx-editor.org/" rdf:resource="#sid-BEF65508-1AB2-45FF-BF7D-7657EE55AFE6"/>
+        <ns515:render xmlns:ns515="http://oryx-editor.org/" rdf:resource="#sid-EC275C91-DEB5-4618-AEC7-5D1D08CE3B97"/>
+        <ns516:render xmlns:ns516="http://oryx-editor.org/" rdf:resource="#sid-0E7A599F-4647-4982-A095-B23F3E06471F"/>
+        <ns517:render xmlns:ns517="http://oryx-editor.org/" rdf:resource="#sid-5DE05E03-A628-4C82-A42D-9D4E155BB824"/>
+        <ns518:render xmlns:ns518="http://oryx-editor.org/" rdf:resource="#sid-85E86DE8-D661-41C3-BD3B-BBC24370FA01"/>
+        <ns519:render xmlns:ns519="http://oryx-editor.org/" rdf:resource="#sid-B4669174-0622-47A9-BED1-C0859347AD73"/>
+        <ns520:render xmlns:ns520="http://oryx-editor.org/" rdf:resource="#sid-B31E84CE-B9E5-408A-8388-B2F9C59BA2B6"/>
+        <ns521:render xmlns:ns521="http://oryx-editor.org/" rdf:resource="#sid-AB384E38-4A23-43A3-94C0-35DD776658A8"/>
+        <ns522:render xmlns:ns522="http://oryx-editor.org/" rdf:resource="#sid-DE5A6DCB-C587-4599-B9B1-20B68B42C66B"/>
+        <ns523:render xmlns:ns523="http://oryx-editor.org/" rdf:resource="#sid-4317040A-B15D-499B-A9FF-B7E4D2442C10"/>
+        <ns524:render xmlns:ns524="http://oryx-editor.org/" rdf:resource="#sid-006AC0EB-086F-40A5-A379-B6C79066C66F"/>
+        <ns525:render xmlns:ns525="http://oryx-editor.org/" rdf:resource="#sid-471ABC8A-93BB-4B17-BA3F-EF4CC00F32A3"/>
+        <ns526:render xmlns:ns526="http://oryx-editor.org/" rdf:resource="#sid-155CF09A-450D-4689-967F-9742540B0177"/>
+        <ns527:render xmlns:ns527="http://oryx-editor.org/" rdf:resource="#sid-D0CD7B2F-2394-4924-A442-FF5C57EEE100"/>
+        <ns528:render xmlns:ns528="http://oryx-editor.org/" rdf:resource="#sid-51B8E869-5F1A-45ED-B0BB-8E69F157FEFB"/>
+        <ns529:render xmlns:ns529="http://oryx-editor.org/" rdf:resource="#sid-3E5FBA38-A38C-49C4-B802-3CFCD0F8095D"/>
+        <ns530:render xmlns:ns530="http://oryx-editor.org/" rdf:resource="#sid-FFB03F12-B0FB-4F4D-8164-18C3CD4B047D"/>
+        <ns531:render xmlns:ns531="http://oryx-editor.org/" rdf:resource="#sid-A433A18F-B3C3-46DC-99C4-0E8AE05B670B"/>
+        <ns532:render xmlns:ns532="http://oryx-editor.org/" rdf:resource="#sid-F0AB73C5-77CB-416F-B5B9-AE287E3F0335"/>
+        <ns533:render xmlns:ns533="http://oryx-editor.org/" rdf:resource="#sid-14245568-0F3A-4CFC-8A6E-2202DA8C206C"/>
+        <ns534:render xmlns:ns534="http://oryx-editor.org/" rdf:resource="#sid-B6FADA16-5388-4B28-BD34-3DE1E0CDC05C"/>
+        <ns535:render xmlns:ns535="http://oryx-editor.org/" rdf:resource="#sid-CC1A0BB6-ACDD-487B-A171-AFB9BBD4DA8F"/>
+        <ns536:render xmlns:ns536="http://oryx-editor.org/" rdf:resource="#sid-59968309-346C-4196-B4D1-B6B057A35426"/>
+        <ns537:render xmlns:ns537="http://oryx-editor.org/" rdf:resource="#sid-CC2E8EBC-6391-4F2E-84FB-D4E76902E747"/>
+        <ns538:render xmlns:ns538="http://oryx-editor.org/" rdf:resource="#sid-6CBFF060-570A-4F82-B347-1BED67BC6A4E"/>
+        <ns539:render xmlns:ns539="http://oryx-editor.org/" rdf:resource="#sid-BBBD5497-D0AB-4C3D-A98B-3C3ED8F28D6B"/>
+        <ns540:render xmlns:ns540="http://oryx-editor.org/" rdf:resource="#sid-52B3BBC4-DF9C-4A5D-BEC9-5260FC53CBB7"/>
+        <ns541:render xmlns:ns541="http://oryx-editor.org/" rdf:resource="#sid-FEB3177F-7D23-47EE-A563-96328B676752"/>
+        <ns542:render xmlns:ns542="http://oryx-editor.org/" rdf:resource="#sid-2AB1E5A6-9B90-47D7-B177-728A42622E14"/>
+        <ns543:render xmlns:ns543="http://oryx-editor.org/" rdf:resource="#sid-97EAA917-544A-49CB-80E6-877A937F9240"/>
+        <ns544:render xmlns:ns544="http://oryx-editor.org/" rdf:resource="#sid-EC676DFE-9934-4EB3-B173-F303FA0421E4"/>
+        <ns545:render xmlns:ns545="http://oryx-editor.org/" rdf:resource="#sid-7EC61902-A85D-44EF-A75F-CAAAE79DC4B6"/>
+        <ns546:render xmlns:ns546="http://oryx-editor.org/" rdf:resource="#sid-53317534-2CB3-47CF-A10A-7EEE5A3DED1C"/>
+        <ns547:render xmlns:ns547="http://oryx-editor.org/" rdf:resource="#sid-2DDB4EBD-BFF4-478E-AF8C-71E0892A278C"/>
+        <ns548:render xmlns:ns548="http://oryx-editor.org/" rdf:resource="#sid-92B3A8FA-3605-447B-AA33-6178E3DAC104"/>
+        <ns549:render xmlns:ns549="http://oryx-editor.org/" rdf:resource="#sid-E9269B1A-400A-495D-828D-0E895F45EE46"/>
+        <ns550:render xmlns:ns550="http://oryx-editor.org/" rdf:resource="#sid-C5C9862A-B7B9-4871-81BB-D97C66331D5A"/>
+        <ns551:render xmlns:ns551="http://oryx-editor.org/" rdf:resource="#sid-06B11830-49E2-4424-99A0-C3E0A5465204"/>
+        <ns552:render xmlns:ns552="http://oryx-editor.org/" rdf:resource="#sid-4CBBC04D-337C-440B-800A-4F4C67970582"/>
+        <ns553:render xmlns:ns553="http://oryx-editor.org/" rdf:resource="#sid-0B54DA85-18CA-4B8C-8A61-98E9931B8516"/>
+        <ns554:stencilset xmlns:ns554="http://oryx-editor.org/" rdf:resource="/stencilsets/cmmn-1.0/cmmn-1.0.json?version=15.10.3"/>
+    </rdf:Description>
+</rdf:RDF>

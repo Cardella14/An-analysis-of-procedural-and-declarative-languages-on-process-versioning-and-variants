@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dmn:definitions namespace="http://www.signavio.com/dmn/1.2/diagram/bb47c8b760ca4136b9331cc98da75956.xml" exporterVersion="15.11.1" name="Evaluate pre-selection DMN 2022/23" id="id-4e0abaaf70124255b4546df96b638702" sigExt:revisionNumber="9" sigExt:revisionId="f578ef339efe436aa0d664d34ba6590a" xmlns="http://www.signavio.com/dmn/1.2/diagram/bb47c8b760ca4136b9331cc98da75956.xml" xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns:sigExt="http://www.signavio.com/schema/dmn/1.2/" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/">
+    <dmn:extensionElements/>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="newElement" id="id-e303aa69953f967336082b4505276968" label="">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="englishTest" id="id-e6fc5aa9d783b40bbc089dba434ef2be" label="English Test">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="admissionTestScore" id="id-580ba48c4fbb5f30b0c2929a4e66c753" label="Admission test score">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="admissionTest" id="id-16082a6726c0695b2e17d02b0dd3f6dd" label="Admission Test">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="evaluatePreselection" id="id-c2084454d2a19e55729ad78fcd74db0c" label="Evaluate pre-selection">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="englishCertification" id="id-a90b88ecbee09e04f7936b589e908421" label="English Certification">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="newElement3" id="id-319345a8f758ef6c32acd3fa91749aff" label="">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="newElement2" id="id-4f9896c7b2687a1e8340e494f967e320" label="">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:inputData name="englishTest" id="id-1a5e3d0c90430bdb8d4a98522fca6d64" label="English Test" sigExt:diagramId="bb47c8b760ca4136b9331cc98da75956" sigExt:shapeId="sid-366CE73B-0548-4B39-896F-EA3652B0A5FF">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="englishTest" name="englishTest" id="id-1a5e3d0c90430bdb8d4a98522fca6d64_variable"/>
+    </dmn:inputData>
+    <dmn:inputData name="admissionTest" id="id-13efe1296cbf20a5a1ebd32ad0295894" label="Admission Test" sigExt:diagramId="bb47c8b760ca4136b9331cc98da75956" sigExt:shapeId="sid-AEC7434F-5FFE-4722-A0D3-484E90960615">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="admissionTest" name="admissionTest" id="id-13efe1296cbf20a5a1ebd32ad0295894_variable"/>
+    </dmn:inputData>
+    <dmn:decision name="englishCertification" id="id-18cf9424e13af07f24efe6fd61221c59" label="English Certification" sigExt:diagramId="bb47c8b760ca4136b9331cc98da75956" sigExt:shapeId="sid-AF76C7E4-9B66-404E-91C7-EDF2C0F8BE92">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="englishCertification" name="englishCertification" id="id-18cf9424e13af07f24efe6fd61221c59_variable"/>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-1a5e3d0c90430bdb8d4a98522fca6d64"/>
+        </dmn:informationRequirement>
+        <dmn:decisionTable hitPolicy="UNIQUE">
+            <dmn:input id="id-93225508607d5a3fec6d4879c8f0422c" label="English Test">
+                <dmn:inputExpression>
+                    <dmn:text>englishTest</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:output name="englishCertification" typeRef="newElement2" id="id-1b8a0ee1f0032d6ccb456a813d56da6b" label="English Certification"/>
+            <dmn:annotation name="New Annotation"/>
+            <dmn:rule id="id-3d5cfaa2ff561f2d7a05f3a45e98f0a6">
+                <dmn:inputEntry>
+                    <dmn:text>"FCE "</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-9dd9ccee671d80c198d58501b4167824">
+                <dmn:inputEntry>
+                    <dmn:text>"IELTS"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;= 5.5 on 9.0")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-f301e8bd75d238b92f53bb5cb4146f5c">
+                <dmn:inputEntry>
+                    <dmn:text>"TOEFL"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;= 72 on 120")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-cc6a8891dd4bdd8e63072b2bf47974a1">
+                <dmn:inputEntry>
+                    <dmn:text>"CAE"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-f3a87ecb99f2e13946cfc473e54469cd">
+                <dmn:inputEntry>
+                    <dmn:text>"CPE"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-65730ac7452174695c4609ae332b66c6">
+                <dmn:inputEntry>
+                    <dmn:text>"PTE (General)"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;= Level 3 – B2 CEFR")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-4cbe98ca9508ec98da9159d91e63d18d">
+                <dmn:inputEntry>
+                    <dmn:text>"PTE (Academic)"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;=42")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+        </dmn:decisionTable>
+    </dmn:decision>
+    <dmn:decision name="evaluatePreselection" id="id-6fc7ea45952b31592e18610134d983ca" label="Evaluate pre-selection" sigExt:diagramId="bb47c8b760ca4136b9331cc98da75956" sigExt:shapeId="sid-F64B699C-85A8-40D0-ADFC-0A396A5A79FA">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="evaluatePreselection" name="evaluatePreselection" id="id-6fc7ea45952b31592e18610134d983ca_variable"/>
+        <dmn:informationRequirement>
+            <dmn:requiredDecision href="#id-18cf9424e13af07f24efe6fd61221c59"/>
+        </dmn:informationRequirement>
+        <dmn:informationRequirement>
+            <dmn:requiredDecision href="#id-582b37c8a860655c65d581ad55785260"/>
+        </dmn:informationRequirement>
+        <dmn:decisionTable hitPolicy="UNIQUE">
+            <dmn:input id="id-74c4ceb061d8b417f5a21029915ef84f" label="English Certification">
+                <dmn:inputExpression>
+                    <dmn:text>englishCertification</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:input id="id-0d72e6fd61cefc457159911788f11e33" label="Admission test score">
+                <dmn:inputExpression>
+                    <dmn:text>admissionTestScore</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:output name="evaluatePreselection" typeRef="newElement3" id="id-0ed508b6d4bda7432522e9ef91ff10af" label="Evaluate pre-selection"/>
+            <dmn:annotation name="New Annotation"/>
+            <dmn:rule id="id-a02df9063541087211398d8145c3ac32">
+                <dmn:inputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>"test passed"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Pre-selection passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-0614be5084e79221cfd7a340071cd0ae">
+                <dmn:inputEntry>
+                    <dmn:text>not("accepted")</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>"test passed"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Pre-selection not passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-33fa2afe1936d4937cb52cba102d39cb">
+                <dmn:inputEntry>
+                    <dmn:text>"accepted"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>not("test passed")</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Pre-selection not passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+        </dmn:decisionTable>
+    </dmn:decision>
+    <dmn:decision name="admissionTestScore" id="id-582b37c8a860655c65d581ad55785260" label="Admission test score" sigExt:diagramId="bb47c8b760ca4136b9331cc98da75956" sigExt:shapeId="sid-16C946AA-F0D5-4D42-9D89-952CB3762C56">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="admissionTestScore" name="admissionTestScore" id="id-582b37c8a860655c65d581ad55785260_variable"/>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-13efe1296cbf20a5a1ebd32ad0295894"/>
+        </dmn:informationRequirement>
+        <dmn:decisionTable hitPolicy="UNIQUE">
+            <dmn:input id="id-a54a4f20c1427d546c2510f3dacf2524" label="Admission Test">
+                <dmn:inputExpression>
+                    <dmn:text>admissionTest</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:output name="admissionTestScore" typeRef="newElement" id="id-e493564cbd6b56f220e8e4397960fefa" label="Admission test score"/>
+            <dmn:annotation name="New Annotation"/>
+            <dmn:rule id="id-54f1e32a687fd34837c4ed37a3468da2">
+                <dmn:inputEntry>
+                    <dmn:text>"SAT"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Test passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;=960 on 1600")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-e77622dee5d14ef2f5062e51d207d7f5">
+                <dmn:inputEntry>
+                    <dmn:text>"ENGLISH TOLC-I"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Test passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;=18 on 50")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-7cba0150c7fb3d2a0775aa58408c96c5">
+                <dmn:inputEntry>
+                    <dmn:text>"TOLC-I in Italian + additional English section"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Test passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;= 18 on 50 and &gt;= 24 on 30")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-1d231ecc902318f7d0f11ea1dd4ff448">
+                <dmn:inputEntry>
+                    <dmn:text>"TOLC-S in Italian + additional English section"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"Test passed"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string("&gt;= 18 on 50 and &gt;= 24 on 30")</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+        </dmn:decisionTable>
+    </dmn:decision>
+</dmn:definitions>

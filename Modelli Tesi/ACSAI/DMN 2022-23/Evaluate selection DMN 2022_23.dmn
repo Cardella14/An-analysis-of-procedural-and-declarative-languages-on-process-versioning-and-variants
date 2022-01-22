@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dmn:definitions namespace="http://www.signavio.com/dmn/1.2/diagram/9ae6af8f2cc041ffab621c1a1acf208d.xml" exporterVersion="15.11.1" name="Evaluate selection DMN 2022/23" id="id-820872715ff143ab9a501b40064f6aab" sigExt:revisionNumber="2" sigExt:revisionId="fafa6854c3de4839af218ea87fe66a50" xmlns="http://www.signavio.com/dmn/1.2/diagram/9ae6af8f2cc041ffab621c1a1acf208d.xml" xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns:sigExt="http://www.signavio.com/schema/dmn/1.2/" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/">
+    <dmn:extensionElements/>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="preselectionLetterAccepted" id="id-8af1b7a8f1f8cebca07204e83c77f286" label="Pre-selection letter [accepted]">
+        <dmn:typeRef>boolean</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="selectionRound" id="id-bd12341b7269c25de4db1dc6b22cfc3d" label="Selection round">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="evaluateselection" id="id-aa2855c3e0f7fbc58e158e5bcba04026" label="Evaluate&#10;selection">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="admissionTestScoreConverted" id="id-0d5c750be487172cdf108705387ae13b" label="Admission test score [converted]">
+        <dmn:typeRef>number</dmn:typeRef>
+        <dmn:allowedValues>
+            <dmn:text>[0.0..100.0]</dmn:text>
+        </dmn:allowedValues>
+    </dmn:itemDefinition>
+    <dmn:itemDefinition typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" isCollection="false" name="newElement" id="id-a9531c3045aa45a217f412fa3de32578" label="">
+        <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemDefinition>
+    <dmn:inputData name="preselectionLetterAccepted" id="id-157d94295ab3a2c3ac255d36677dfd87" label="Pre-selection letter [accepted]" sigExt:diagramId="9ae6af8f2cc041ffab621c1a1acf208d" sigExt:shapeId="sid-34A92784-BF12-4053-845D-2A120CD82327">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="preselectionLetterAccepted" name="preselectionLetterAccepted" id="id-157d94295ab3a2c3ac255d36677dfd87_variable"/>
+    </dmn:inputData>
+    <dmn:inputData name="admissionTestScoreConverted" id="id-8e4dc4d98b19012ac05b7965d57726cd" label="Admission test score [converted]" sigExt:diagramId="9ae6af8f2cc041ffab621c1a1acf208d" sigExt:shapeId="sid-E2C6183B-3892-42E5-AF96-937573CB295F">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="admissionTestScoreConverted" name="admissionTestScoreConverted" id="id-8e4dc4d98b19012ac05b7965d57726cd_variable"/>
+    </dmn:inputData>
+    <dmn:inputData name="selectionRound" id="id-ce2fb338e40863c9b35ee0f3257bc399" label="Selection round" sigExt:diagramId="9ae6af8f2cc041ffab621c1a1acf208d" sigExt:shapeId="sid-4F661416-D6A2-45F1-B8F8-59A052A65126">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="selectionRound" name="selectionRound" id="id-ce2fb338e40863c9b35ee0f3257bc399_variable"/>
+    </dmn:inputData>
+    <dmn:decision name="evaluateselection" id="id-bf5254297230dc4b8ccfaca41026b79f" label="Evaluate&#10;selection" sigExt:diagramId="9ae6af8f2cc041ffab621c1a1acf208d" sigExt:shapeId="sid-24AF717D-36B5-400D-866D-621CE241BDCA">
+        <dmn:extensionElements/>
+        <dmn:variable typeRef="evaluateselection" name="evaluateselection" id="id-bf5254297230dc4b8ccfaca41026b79f_variable"/>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-8e4dc4d98b19012ac05b7965d57726cd"/>
+        </dmn:informationRequirement>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-157d94295ab3a2c3ac255d36677dfd87"/>
+        </dmn:informationRequirement>
+        <dmn:informationRequirement>
+            <dmn:requiredInput href="#id-ce2fb338e40863c9b35ee0f3257bc399"/>
+        </dmn:informationRequirement>
+        <dmn:decisionTable hitPolicy="UNIQUE">
+            <dmn:input id="id-25f33ae5dc122022a3e1e6137fc318ed" label="Pre-selection letter [accepted]">
+                <dmn:inputExpression>
+                    <dmn:text>preselectionLetterAccepted</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:input id="id-f1456f9f5100467e324081acf80d8506" label="Selection round">
+                <dmn:inputExpression>
+                    <dmn:text>selectionRound</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:input id="id-1392c18333db46515142b0313bfeadfc" label="Admission test score [converted]">
+                <dmn:inputExpression>
+                    <dmn:text>admissionTestScoreConverted</dmn:text>
+                </dmn:inputExpression>
+            </dmn:input>
+            <dmn:output name="evaluateselection" typeRef="newElement" id="id-f1469bc8e363f926d04c99718fed611c" label="Evaluate&#10;selection"/>
+            <dmn:annotation name="New Annotation"/>
+            <dmn:rule id="id-dc8289e252bcbe9109d2c455d5a35be9">
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>"1, 2, 3"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&gt;= 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-c366195060d67be61da2df7775225c20">
+                <dmn:inputEntry>
+                    <dmn:text>false</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>"1, 2, 3"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&gt;= 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-43ac3b1ed53861948ac1746143b08022">
+                <dmn:inputEntry>
+                    <dmn:text>false</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>"1, 2, 3"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&lt; 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-d5032b8ac48abf0c4d36e91d9c04a92b">
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>"1, 2, 3"</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&lt; 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-3e0d55d9df044ad65ff635d8619459ea">
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>null</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&gt;= 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-d7f9803d77f0296034f6bf3156467fec">
+                <dmn:inputEntry>
+                    <dmn:text>false</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>null</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&gt;= 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-7235c9e8a9a8de8cf8823b9b5ed820f3">
+                <dmn:inputEntry>
+                    <dmn:text>false</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>null</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&lt; 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+            <dmn:rule id="id-9a2f01837deacacf03d9febaee3bb439">
+                <dmn:inputEntry>
+                    <dmn:text>true</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>null</dmn:text>
+                </dmn:inputEntry>
+                <dmn:inputEntry>
+                    <dmn:text>&lt; 36</dmn:text>
+                </dmn:inputEntry>
+                <dmn:outputEntry>
+                    <dmn:text>"not admitted"</dmn:text>
+                </dmn:outputEntry>
+                <dmn:annotationEntry>
+                    <dmn:text>string(-)</dmn:text>
+                </dmn:annotationEntry>
+            </dmn:rule>
+        </dmn:decisionTable>
+    </dmn:decision>
+</dmn:definitions>
